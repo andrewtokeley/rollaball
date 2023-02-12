@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D80257E629999105008828CF /* rollaballApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80257E529999105008828CF /* rollaballApp.swift */; };
+		D80257E829999105008828CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80257E729999105008828CF /* ContentView.swift */; };
+		D80257EA29999106008828CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80257E929999106008828CF /* Assets.xcassets */; };
+		D80257ED29999106008828CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80257EC29999106008828CF /* Preview Assets.xcassets */; };
+		D80257F729999107008828CF /* rollaballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80257F629999107008828CF /* rollaballTests.swift */; };
+		D802580129999107008828CF /* rollaballUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D802580029999107008828CF /* rollaballUITests.swift */; };
+		D802580329999107008828CF /* rollaballUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D802580229999107008828CF /* rollaballUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D80257F329999107008828CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D80257DA29999104008828CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D80257E129999104008828CF;
+			remoteInfo = rollaball;
+		};
+		D80257FD29999107008828CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D80257DA29999104008828CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D80257E129999104008828CF;
+			remoteInfo = rollaball;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D80257E229999105008828CF /* rollaball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rollaball.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80257E529999105008828CF /* rollaballApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rollaballApp.swift; sourceTree = "<group>"; };
+		D80257E729999105008828CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D80257E929999106008828CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D80257EC29999106008828CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D80257F229999107008828CF /* rollaballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rollaballTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80257F629999107008828CF /* rollaballTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rollaballTests.swift; sourceTree = "<group>"; };
+		D80257FC29999107008828CF /* rollaballUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rollaballUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D802580029999107008828CF /* rollaballUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rollaballUITests.swift; sourceTree = "<group>"; };
+		D802580229999107008828CF /* rollaballUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rollaballUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D80257DF29999104008828CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80257EF29999107008828CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80257F929999107008828CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D80257D929999104008828CF = {
+			isa = PBXGroup;
+			children = (
+				D80257E429999105008828CF /* rollaball */,
+				D80257F529999107008828CF /* rollaballTests */,
+				D80257FF29999107008828CF /* rollaballUITests */,
+				D80257E329999105008828CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D80257E329999105008828CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D80257E229999105008828CF /* rollaball.app */,
+				D80257F229999107008828CF /* rollaballTests.xctest */,
+				D80257FC29999107008828CF /* rollaballUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D80257E429999105008828CF /* rollaball */ = {
+			isa = PBXGroup;
+			children = (
+				D80257E529999105008828CF /* rollaballApp.swift */,
+				D80257E729999105008828CF /* ContentView.swift */,
+				D80257E929999106008828CF /* Assets.xcassets */,
+				D80257EB29999106008828CF /* Preview Content */,
+			);
+			path = rollaball;
+			sourceTree = "<group>";
+		};
+		D80257EB29999106008828CF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D80257EC29999106008828CF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D80257F529999107008828CF /* rollaballTests */ = {
+			isa = PBXGroup;
+			children = (
+				D80257F629999107008828CF /* rollaballTests.swift */,
+			);
+			path = rollaballTests;
+			sourceTree = "<group>";
+		};
+		D80257FF29999107008828CF /* rollaballUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D802580029999107008828CF /* rollaballUITests.swift */,
+				D802580229999107008828CF /* rollaballUITestsLaunchTests.swift */,
+			);
+			path = rollaballUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D80257E129999104008828CF /* rollaball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D802580629999107008828CF /* Build configuration list for PBXNativeTarget "rollaball" */;
+			buildPhases = (
+				D80257DE29999104008828CF /* Sources */,
+				D80257DF29999104008828CF /* Frameworks */,
+				D80257E029999104008828CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rollaball;
+			productName = rollaball;
+			productReference = D80257E229999105008828CF /* rollaball.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D80257F129999107008828CF /* rollaballTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D802580929999107008828CF /* Build configuration list for PBXNativeTarget "rollaballTests" */;
+			buildPhases = (
+				D80257EE29999107008828CF /* Sources */,
+				D80257EF29999107008828CF /* Frameworks */,
+				D80257F029999107008828CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D80257F429999107008828CF /* PBXTargetDependency */,
+			);
+			name = rollaballTests;
+			productName = rollaballTests;
+			productReference = D80257F229999107008828CF /* rollaballTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D80257FB29999107008828CF /* rollaballUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D802580C29999107008828CF /* Build configuration list for PBXNativeTarget "rollaballUITests" */;
+			buildPhases = (
+				D80257F829999107008828CF /* Sources */,
+				D80257F929999107008828CF /* Frameworks */,
+				D80257FA29999107008828CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D80257FE29999107008828CF /* PBXTargetDependency */,
+			);
+			name = rollaballUITests;
+			productName = rollaballUITests;
+			productReference = D80257FC29999107008828CF /* rollaballUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D80257DA29999104008828CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D80257E129999104008828CF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D80257F129999107008828CF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D80257E129999104008828CF;
+					};
+					D80257FB29999107008828CF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D80257E129999104008828CF;
+					};
+				};
+			};
+			buildConfigurationList = D80257DD29999104008828CF /* Build configuration list for PBXProject "rollaball" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D80257D929999104008828CF;
+			productRefGroup = D80257E329999105008828CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D80257E129999104008828CF /* rollaball */,
+				D80257F129999107008828CF /* rollaballTests */,
+				D80257FB29999107008828CF /* rollaballUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D80257E029999104008828CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80257ED29999106008828CF /* Preview Assets.xcassets in Resources */,
+				D80257EA29999106008828CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80257F029999107008828CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80257FA29999107008828CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D80257DE29999104008828CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80257E829999105008828CF /* ContentView.swift in Sources */,
+				D80257E629999105008828CF /* rollaballApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80257EE29999107008828CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80257F729999107008828CF /* rollaballTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80257F829999107008828CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D802580329999107008828CF /* rollaballUITestsLaunchTests.swift in Sources */,
+				D802580129999107008828CF /* rollaballUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D80257F429999107008828CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D80257E129999104008828CF /* rollaball */;
+			targetProxy = D80257F329999107008828CF /* PBXContainerItemProxy */;
+		};
+		D80257FE29999107008828CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D80257E129999104008828CF /* rollaball */;
+			targetProxy = D80257FD29999107008828CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D802580429999107008828CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D802580529999107008828CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D802580729999107008828CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"rollaball/Preview Content\"";
+				DEVELOPMENT_TEAM = 2DTZ6ESMX9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andrewtokeley.rollaball;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D802580829999107008828CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"rollaball/Preview Content\"";
+				DEVELOPMENT_TEAM = 2DTZ6ESMX9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andrewtokeley.rollaball;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D802580A29999107008828CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DTZ6ESMX9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andrewtokeley.rollaballTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rollaball.app/rollaball";
+			};
+			name = Debug;
+		};
+		D802580B29999107008828CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DTZ6ESMX9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andrewtokeley.rollaballTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rollaball.app/rollaball";
+			};
+			name = Release;
+		};
+		D802580D29999107008828CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DTZ6ESMX9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andrewtokeley.rollaballUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = rollaball;
+			};
+			name = Debug;
+		};
+		D802580E29999107008828CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DTZ6ESMX9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andrewtokeley.rollaballUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = rollaball;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D80257DD29999104008828CF /* Build configuration list for PBXProject "rollaball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D802580429999107008828CF /* Debug */,
+				D802580529999107008828CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D802580629999107008828CF /* Build configuration list for PBXNativeTarget "rollaball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D802580729999107008828CF /* Debug */,
+				D802580829999107008828CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D802580929999107008828CF /* Build configuration list for PBXNativeTarget "rollaballTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D802580A29999107008828CF /* Debug */,
+				D802580B29999107008828CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D802580C29999107008828CF /* Build configuration list for PBXNativeTarget "rollaballUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D802580D29999107008828CF /* Debug */,
+				D802580E29999107008828CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D80257DA29999104008828CF /* Project object */;
+}
