@@ -14,6 +14,12 @@
 		D80257F729999107008828CF /* rollaballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80257F629999107008828CF /* rollaballTests.swift */; };
 		D802580129999107008828CF /* rollaballUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D802580029999107008828CF /* rollaballUITests.swift */; };
 		D802580329999107008828CF /* rollaballUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D802580229999107008828CF /* rollaballUITestsLaunchTests.swift */; };
+		D85B04FF299B813A0014F051 /* MazeSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85B04FE299B813A0014F051 /* MazeSpacer.swift */; };
+		D85B0501299B8C080014F051 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85B0500299B8C080014F051 /* Player.swift */; };
+		D85B0503299B8E140014F051 /* Hole.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85B0502299B8E140014F051 /* Hole.swift */; };
+		D85B0505299B8EDC0014F051 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85B0504299B8EDC0014F051 /* Star.swift */; };
+		D8C2F904299ADA9200B43166 /* Play.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C2F903299ADA9200B43166 /* Play.swift */; };
+		D8C2F906299B1C1400B43166 /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C2F905299B1C1400B43166 /* Ball.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,13 @@
 		D80257FC29999107008828CF /* rollaballUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rollaballUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D802580029999107008828CF /* rollaballUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rollaballUITests.swift; sourceTree = "<group>"; };
 		D802580229999107008828CF /* rollaballUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rollaballUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D85B04FD299B78A60014F051 /* level1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		D85B04FE299B813A0014F051 /* MazeSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeSpacer.swift; sourceTree = "<group>"; };
+		D85B0500299B8C080014F051 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		D85B0502299B8E140014F051 /* Hole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hole.swift; sourceTree = "<group>"; };
+		D85B0504299B8EDC0014F051 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		D8C2F903299ADA9200B43166 /* Play.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play.swift; sourceTree = "<group>"; };
+		D8C2F905299B1C1400B43166 /* Ball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +107,10 @@
 		D80257E429999105008828CF /* rollaball */ = {
 			isa = PBXGroup;
 			children = (
+				D8C2F902299ADA8400B43166 /* Test */,
+				D802581C29999CB6008828CF /* Resources */,
 				D80257E529999105008828CF /* rollaballApp.swift */,
-				D80257E729999105008828CF /* ContentView.swift */,
+				D802581929999C4D008828CF /* Views */,
 				D80257E929999106008828CF /* Assets.xcassets */,
 				D80257EB29999106008828CF /* Preview Content */,
 			);
@@ -125,6 +140,35 @@
 				D802580229999107008828CF /* rollaballUITestsLaunchTests.swift */,
 			);
 			path = rollaballUITests;
+			sourceTree = "<group>";
+		};
+		D802581929999C4D008828CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D80257E729999105008828CF /* ContentView.swift */,
+				D85B04FE299B813A0014F051 /* MazeSpacer.swift */,
+				D85B0500299B8C080014F051 /* Player.swift */,
+				D85B0502299B8E140014F051 /* Hole.swift */,
+				D85B0504299B8EDC0014F051 /* Star.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D802581C29999CB6008828CF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D85B04FD299B78A60014F051 /* level1.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D8C2F902299ADA8400B43166 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				D8C2F903299ADA9200B43166 /* Play.swift */,
+				D8C2F905299B1C1400B43166 /* Ball.swift */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D85B0503299B8E140014F051 /* Hole.swift in Sources */,
 				D80257E829999105008828CF /* ContentView.swift in Sources */,
+				D8C2F904299ADA9200B43166 /* Play.swift in Sources */,
+				D85B04FF299B813A0014F051 /* MazeSpacer.swift in Sources */,
 				D80257E629999105008828CF /* rollaballApp.swift in Sources */,
+				D85B0501299B8C080014F051 /* Player.swift in Sources */,
+				D8C2F906299B1C1400B43166 /* Ball.swift in Sources */,
+				D85B0505299B8EDC0014F051 /* Star.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
