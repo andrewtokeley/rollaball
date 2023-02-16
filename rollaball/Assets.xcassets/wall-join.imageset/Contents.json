@@ -1,12 +1,12 @@
 {
   "images" : [
     {
-      "filename" : "wall-topleft.png",
+      "filename" : "wall-join.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "wall-topleft@2x.png",
+      "filename" : "wall-join@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

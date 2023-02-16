@@ -18,6 +18,8 @@
 		D85B0501299B8C080014F051 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85B0500299B8C080014F051 /* Player.swift */; };
 		D85B0503299B8E140014F051 /* Hole.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85B0502299B8E140014F051 /* Hole.swift */; };
 		D85B0505299B8EDC0014F051 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85B0504299B8EDC0014F051 /* Star.swift */; };
+		D85B0508299DE06E0014F051 /* Maze.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85B0507299DE06E0014F051 /* Maze.swift */; };
+		D85B050A299DEAAA0014F051 /* Wall.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85B0509299DEAAA0014F051 /* Wall.swift */; };
 		D8C2F904299ADA9200B43166 /* Play.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C2F903299ADA9200B43166 /* Play.swift */; };
 		D8C2F906299B1C1400B43166 /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C2F905299B1C1400B43166 /* Ball.swift */; };
 /* End PBXBuildFile section */
@@ -55,6 +57,8 @@
 		D85B0500299B8C080014F051 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		D85B0502299B8E140014F051 /* Hole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hole.swift; sourceTree = "<group>"; };
 		D85B0504299B8EDC0014F051 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		D85B0507299DE06E0014F051 /* Maze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maze.swift; sourceTree = "<group>"; };
+		D85B0509299DEAAA0014F051 /* Wall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wall.swift; sourceTree = "<group>"; };
 		D8C2F903299ADA9200B43166 /* Play.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play.swift; sourceTree = "<group>"; };
 		D8C2F905299B1C1400B43166 /* Ball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,6 +111,7 @@
 		D80257E429999105008828CF /* rollaball */ = {
 			isa = PBXGroup;
 			children = (
+				D85B0506299DE0110014F051 /* Model */,
 				D8C2F902299ADA8400B43166 /* Test */,
 				D802581C29999CB6008828CF /* Resources */,
 				D80257E529999105008828CF /* rollaballApp.swift */,
@@ -150,6 +155,7 @@
 				D85B0500299B8C080014F051 /* Player.swift */,
 				D85B0502299B8E140014F051 /* Hole.swift */,
 				D85B0504299B8EDC0014F051 /* Star.swift */,
+				D85B0509299DEAAA0014F051 /* Wall.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -160,6 +166,14 @@
 				D85B04FD299B78A60014F051 /* level1.txt */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		D85B0506299DE0110014F051 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D85B0507299DE06E0014F051 /* Maze.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		D8C2F902299ADA8400B43166 /* Test */ = {
@@ -302,11 +316,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D85B0503299B8E140014F051 /* Hole.swift in Sources */,
+				D85B0508299DE06E0014F051 /* Maze.swift in Sources */,
 				D80257E829999105008828CF /* ContentView.swift in Sources */,
 				D8C2F904299ADA9200B43166 /* Play.swift in Sources */,
 				D85B04FF299B813A0014F051 /* MazeSpacer.swift in Sources */,
 				D80257E629999105008828CF /* rollaballApp.swift in Sources */,
 				D85B0501299B8C080014F051 /* Player.swift in Sources */,
+				D85B050A299DEAAA0014F051 /* Wall.swift in Sources */,
 				D8C2F906299B1C1400B43166 /* Ball.swift in Sources */,
 				D85B0505299B8EDC0014F051 /* Star.swift in Sources */,
 			);

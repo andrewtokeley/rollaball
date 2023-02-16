@@ -8,59 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var maze: Maze = Maze.loadLevel()
     
     var body: some View {
         ZStack {
             Color.gray
+            
             VStack(spacing: 0) {
-                HStack(spacing: 0) {
-                    Image("wall-topleft")
-                    Image("wall-horizontal")
-                    Image("wall-horizontal")
-                    Image("wall-horizontal")
-                    Image("wall-horizontal")
-                }
-                HStack(spacing: 0) {
-                    Image("wall-bottomleft")
-                    Image("wall-horizontal")
-                    Image("wall-bottomleft")
-                        .rotationEffect(Angle.degrees(180))
-                    Image("wall-bottomleft")
-                        .rotationEffect(Angle.degrees(90))
-                    Image("wall-horizontal")
-                }
-                HStack(spacing: 0) {
-                    MazeSpacer()
-                    MazeSpacer()
-                    Image("wall-vertical")
-                    Image("wall-bottomleft")
-                    Image("wall-horizontal")
+                ForEach(maze.rows, id: \.self) { row in
+                    HStack(spacing: 0) {
+                        ForEach(row, id: \.self) { wallType in
+                            if wallType == .space {
+                                MazeSpacer()
+                            } else {
+                                Wall(type: wallType)
+                            }
+                        }
+                    }
                 }
             }
-            VStack(spacing: 0) {
-                HStack(spacing: 0) {
-                    Player()
-                    MazeSpacer()
-                    MazeSpacer()
-                    Hole()
-                    MazeSpacer()
-                }
-                HStack(spacing: 0) {
-                    MazeSpacer()
-                    MazeSpacer()
-                    Star()
-                    MazeSpacer()
-                    MazeSpacer()
-                }
-                HStack(spacing: 0) {
-                    MazeSpacer()
-                    MazeSpacer()
-                    MazeSpacer()
-                    MazeSpacer()
-                    MazeSpacer()
-                }
-            }
-                .offset(x: 32, y:32)
         }
         .ignoresSafeArea()
     }
